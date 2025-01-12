@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Tarea 2</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/iconbar.css">
+
+</head>
+
+<body>
+    <div style="height: 10px;"></div>
+    <div class="container contenedor-index color1 text-center">
+        <div class="row espacio-filas">
+            <img src="./img/logo_ESPE.png" alt="logo_ESPE" height="100px">
+        </div>
+    </div>
+    <div style="height: 10px;"></div>
+    <div class="container">
+        <nav class="navbar navbar-inverse ">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a href="#" class="navbar-brand">GRUPO 1</a>
+                </div>
+                <div class="collapse navbar-collapse text-center">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Docente</a></li>
+                        <li><a href="#" id="comandante">Comandante</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Grupos
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" target="_blank">Grupo 1</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#" target="_blank">
+                                        Grupo 2</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Grupo 3</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Grupo 4</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Grupo 5</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Grupo 6</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Grupo 7</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Grupo 8</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <form action="#" class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="busqueda" id="busqueda" placeholder="Buscar">
+                        </div>
+                        <button class="btn btn-primary">Buscar</button>
+                    </form>
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 color5 contenedor-index">
+                <button class="btn btn-block">
+                    <span class="glyphicon glyphicon-user"></span> <a style="color: black;" id="login" data-toggle="popover" data-placement="top"
+                    data-content="Proximamente será codificado">LOGIN</a>
+                </button>
+                <button class="btn btn-block">
+                    <span class="glyphicon glyphicon-hdd"></span> <a href="registro.html"
+                        style="color: black;">Registro</a>
+                </button>
+                <button class="btn btn-block">
+                    <span class="glyphicon glyphicon-book"></span> <a href="producto.html"
+                        style="color: black;">Producto</a>
+                </button>
+
+
+            </div>
+            <div class="col-md-5 color2 contenedor-index text-center" id="contenedor_verde">
+                <h1 style="color: #fff "> ASO</h1>
+                <div class="center-panel">
+                    <p>Integrantes:</p>
+                    <p>Chanataxi Oscar</p>
+                    <p>Colina Mateo</p>
+                    <p>Carrillo Luis</p>
+                    <p>Alomia Johan</p>
+                </div>
+            </div>
+            <div class="col-md-5 login-comander" id="login_comandante" style="display: none;">
+                <div class="text-center">
+                    <h4>Login</h4>
+                    <span class="glyphicon glyphicon-fire glyphicon-lg" style="font-size: 30px;"></span>
+                </div>
+
+                <form action="#">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                            <input type="text" class="form-control" placeholder="Usuario" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-repeat"></span></span>
+                                <input type="password" class="form-control"
+                                    placeholder="Vuelva a escribir la contraseña" required>
+                            </div>
+                        </div>
+                        <input type="checkbox">
+                        <label for="recuerdame">Recuérdame</label>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span class="glyphicon glyphicon-log-in"></span>&nbsp;&nbsp;Ingresar
+                        </button>
+                    </div>
+                </form>
+                <div class="text-center">
+                    <a href="#">Olvidé mi contraseña</a>
+                </div>
+            </div>
+            <div class="col-md-4 color4 contenedor-index text-center">
+                <iframe width="300" height="270" src="https://www.youtube.com/embed/vAPeJCdAOp4?si=I5M1EBeVUuEW_r4d"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div style="height: 10px;"></div>
+    <div class="container contenedor-index text-center color3">
+        <ul class="list-inline text-center">
+            <li>
+                <button class="btn btn-primary">
+                    <span class="icon-facebook app2"> Facebook</span>
+                </button>
+            </li>
+            <li>
+                <button class="btn btn-info">
+                    <span class="icon-twitter app2"> Twitter</span>
+                </button>
+            </li>
+            <li>
+                <button class="btn btn-danger">
+                    <span class="icon-youtube app2"> YouTube</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript" src="js/vendor/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+    <script>
+        document.getElementById("comandante").addEventListener("click", function () {
+            document.getElementById("contenedor_verde").style.display = "none";
+            document.getElementById("login_comandante").style.display = "block";
+        });
+
+        $(document).ready(function () {
+          
+            $('#login').click(function () {
+                
+                $(this).popover('show');
+       
+            });
+            
+        });
+        
+
+    </script>
+</body>
+
+</html>
